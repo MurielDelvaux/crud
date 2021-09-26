@@ -1,0 +1,10 @@
+usuario = {
+    id: string, //uuid npm
+    nome: string,
+    email: string,
+    senha: string
+}
+=> para adicionar um novo usuário ao sistema é necessário adicionar à tabela de usuários o objeto usuário, utilizando o método push
+tabela = [
+    {usuario},{usuario},{usuario}
+]
